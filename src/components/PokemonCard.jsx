@@ -17,8 +17,9 @@ const pokemonList = [
   },
 
 ];
-console.log (pokemonList);
-const PokemonCard = () => {
+
+const PokemonCard = (props) => {
+  console.log(props);
   const pokemon = pokemonList[1];
   return (
     <>
