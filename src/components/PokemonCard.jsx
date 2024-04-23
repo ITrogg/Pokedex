@@ -1,6 +1,4 @@
-const PokemonCard = (props) => {
-  console.log(props);
-  const pokemon = { name: "mew" };
+const PokemonCard = ({ pokemon }) => {
   return (
     <>
     <figure>
