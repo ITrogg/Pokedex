@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 
 const PokemonCard = ({ pokemon }) => {
+  // pokemon.name === "pikachu" ? alert("pika pikachu !!!") : "";
   return (
     <>
     <figure>
