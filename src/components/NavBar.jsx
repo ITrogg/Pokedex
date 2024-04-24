@@ -4,7 +4,7 @@ const NavBar = (props) => {
   return (
     <>
       {props.list.map((pokemon, index) => (
-        <button onClick={() => props.setPokemonIndex(index)} key={index}>{pokemon.name}</button>
+        <button onClick={() => props.setPokemonIndex(index)} key={pokemon.name}>{pokemon.name}</button>
       ))}
       {props.list.name}
     </>
